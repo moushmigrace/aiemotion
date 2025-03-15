@@ -1,0 +1,143 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: url('signin.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .top-bar {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .top-bar .logo {
+    font-size: 24px;
+    color: #2d8cff;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    max-width: 900px;
+    background-color: #ffffff;
+    padding: 40px;
+    margin-left:400px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-box {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .info-box img {
+    width: 100px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .features-list {
+    list-style: none;
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .signup-box {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+   
+  }
+  
+  .signup-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .email-input {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .continue-btn {
+    width: 90%;
+    padding: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .continue-btn:hover {
+    background-color: #0056d2;
+    
+  }
+  
+  .agreement-text {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .agreement-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-options {
+    margin-top: 15px;
+
+  }
+  
+  .icon-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  
+  .icon-buttons button {
+    padding: 10px 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

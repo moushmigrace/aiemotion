@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom Clone</title>
+    <link rel="stylesheet" href="meeting.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="menu">
+            <span class="active">Home</span>
+            <span>Chat</span>
+            <span>Phone</span>
+            <span>Meetings</span>
+            <span>Contacts</span>
+        </div>
+        <input type="text" placeholder="Search" class="search-bar">
+    </div>
+
+    <div class="container">
+        <div class="left-section">
+            <div class="meet">
+            <button onclick="location.href='join.html'" class="meeting-btn orange">
+                <img src="new.jpeg" alt="New Meeting">
+                <span>New Meeting</span>
+            </button>
+        </div>
+        <div class="meet">
+            <button class="meeting-btn blue">
+                <img src="join.jpeg" alt="Join">
+                <span>Join</span>
+            </button>
+        </div>
+            <div class="meet">
+            <button class="meeting-btn blue" id="schedule">
+                <img src="schedule.jpeg" alt="Schedule">
+                <span>Schedule</span>
+            </button>
+        </div>
+        <div class="meet">
+            <button class="meeting-btn blue">
+                <img src="sharescreen.jpeg" alt="Share Screen">
+                <span>Share Screen</span>
+            </button>
+        </div>
+    </div>
+
+        <div class="right-section">
+            <div class="calendar">
+                <img src="landscape.jpg" alt="Calendar Background">
+                <div class="time">3:36 PM</div>
+                <div class="date">Monday, January 7, 2019</div>
+            </div>
+            <div class="add-calendar">➕ Add a calendar</div>
+        </div>
+    </div>
+
+    <script src="meeting.js"></script>
+</body>
+</html>

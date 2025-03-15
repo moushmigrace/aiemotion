@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signin.css">
+  <title>Zoom Sign In Clone</title>
+</head>
+<body>
+  <div class="container">
+    <header class="top-bar">
+      <span class="logo"></span>
+      <nav>
+        <a href="signup.html">New to Zoom? Sign Up Free</a>
+        <a href="#">Support</a>
+        <a href="#">English</a>
+      </nav>
+    </header>
+
+    <main>
+      
+
+        <section class="signin-box">
+          <h2>Sign In</h2>
+          <input type="email" placeholder="Email Address" class="input-field">
+          <input type="password" placeholder="Password" class="input-field">
+          <div class="actions">
+            <a href="#">Forgot password?</a>
+            <a href="#">Help</a>
+          </div>
+          <button onclick="location.href='meeting.html'" class="signin-btn">Sign In</button>
+          <label class="stay-signed">
+            <input type="checkbox"> Stay signed in
+          </label>
+          <p class="agreement-text">
+            By signing in, I agree to the Zoom's <a href="#">Privacy Statement</a> and <a href="#">Terms of Service</a>.
+          </p>
+
+          <div class="signin-options">
+            <span>Or sign in with</span>
+            <div class="icon-buttons">
+              <button class="sso-btn">SSO</button>
+              <button class="apple-btn">Apple</button>
+              <button class="google-btn">Google</button>
+              <button class="facebook-btn">Facebook</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="signin.js"></script>
+</body>
+</html>

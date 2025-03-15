@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="join.css">
+  <title>Join Meeting</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="zoom-Logo.png" alt="Zoom Logo" class="logo">
+      <div class="nav-buttons">
+        <button class="support-btn">Support</button>
+        <button onclick="location.href='signup.html'" class="signup-btn">Sign Up Free</button>
+      </div>
+    </header>
+
+    <main>
+        <div class="join">
+      <h1>Join Meeting</h1>
+      <br>
+      <label for="meeting-id">Meeting ID or Personal Link Name</label>
+      <input type="text" id="meeting-id" placeholder="Enter Meeting ID or Personal Link Name">
+      
+      <div class="dropdown">
+        <button class="dropdown-btn" id="plugin-btn">Select Plugin ▼</button>
+        <div class="dropdown-content" id="plugin-list">
+          <div class="plugin-option">No Plugin</div>
+          <div onclick="location.href='plugin.html'" class="plugin-option" data-plugin="MindGauge">MindGauge</div>
+        </div>
+      </div>
+
+      <p>By clicking "Join", you agree to our <a href="#">Terms of Services</a> and <a href="#">Privacy Statement</a></p>
+      <button id="join-btn" class="join-btn" disabled>Join</button>
+      
+      <p><a href="#">Join a meeting from an H.323/SIP room system</a></p>
+    </main>
+</div>
+
+    <footer>
+      <p>© 2025 Zoom Communications, Inc. All rights reserved. <a href="#">Privacy & Legal Policies</a></p>
+    </footer>
+
+
+
+  </div>
+
+  <script src="join.js"></script>
+</body>
+</html>

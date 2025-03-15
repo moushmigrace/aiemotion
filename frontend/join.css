@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin-top: 50px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 80px;
+    
+  }
+  
+  .nav-buttons button {
+    background-color: transparent;
+    border: 1px solid #0078ff;
+    color: #0078ff;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin: 15px 0 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .dropdown {
+    margin: 15px 0;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-btn {
+    padding: 10px;
+    border: 1px solid #0078ff;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #0078ff;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    width: 100%;
+    z-index: 1;
+  }
+  .join{
+    
+       
+        width:600px;
+        background-color: #ffffff;
+        padding: 40px;
+        
+        height: 500px;
+        border-radius: 8px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+     
+  }
+  
+  .plugin-option {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .plugin-option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .join-btn {
+    padding: 10px 20px;
+    background-color: #d3d3d3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+    margin-top:30px ;
+    margin-bottom:30px ;
+  }
+  
+  .join-btn.enabled {
+    background-color: #0078ff;
+    cursor: pointer;
+  }
+  /* CSS for the dropdown */
+#plugin-list {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  #plugin-list.show {
+    display: block;
+  }
+  
+  .plugin-option {
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+  
+  .plugin-option:hover {
+    background-color: #ddd;
+  }
+  
+  
